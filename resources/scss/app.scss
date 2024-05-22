@@ -9,23 +9,10 @@ $fa-font-path: "../webfonts" !default;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
-h1{
-    color: $text-color;
-}
-main{
-    background-image: url('../img/backpage.jpg');
-}
+
 header {
     .navbar-nav .nav-link.active {
         font-weight: bold;
         color: $text-color;
-    }
-}
-footer{
-    background-image: url('../img/footer-montagne-bottom.jpg');
-}
-#products {
-    .card-img-top {
-        aspect-ratio: 1 / 1.2;
     }
 }
