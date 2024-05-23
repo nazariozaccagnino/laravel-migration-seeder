@@ -23,7 +23,6 @@ class TrainsTableSeeder extends Seeder
         $new_train->wagons = 8;
         $new_train->on_time = 1;
         $new_train->deleted = 0;
-
-
+        $new_train->save();
     }
 }
